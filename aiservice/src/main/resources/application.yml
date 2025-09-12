@@ -8,6 +8,11 @@ spring:
   devtools:
     restart:
       log-condition-evaluation-delta: false
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 
 server:
   port: 8084
@@ -19,3 +24,11 @@ eureka:
 
 
 
+
+rabbitmq:
+  exchange:
+    name: fitness.activity.exchange
+  queue:
+    name: activity.queue
+  routing:
+    key: activity.tracking
