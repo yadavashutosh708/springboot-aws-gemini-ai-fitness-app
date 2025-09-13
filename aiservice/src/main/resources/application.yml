@@ -1,34 +1,5 @@
 spring:
   application:
     name: ai-service
-  datasource:
-    mongodb:
-      uri: mongodb://localhost:27017/fitness_recommendation
-      database: fitness_recommendation
-  devtools:
-    restart:
-      log-condition-evaluation-delta: false
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
-
-server:
-  port: 8084
-
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
-
-
-
-
-rabbitmq:
-  exchange:
-    name: fitness.activity.exchange
-  queue:
-    name: activity.queue
-  routing:
-    key: activity.tracking
+  config:
+    import: optional:configserver:http://localhost:8888

@@ -44,6 +44,7 @@ public class ActivityService implements IActivityService {
         Activity activity = Activity.builder().
                 userId(activityDto.getUserId()).
                 type(activityDto.getType()).
+                duration(activityDto.getDuration()).
                 caloriesBurned(activityDto.getCaloriesBurned()).
                 startTime(activityDto.getStartTime()).
                 additionalMetrics(activityDto.getAdditionalMetrics()).build();
@@ -73,7 +74,7 @@ public class ActivityService implements IActivityService {
     private ActivityResponseDto mapToDto(Activity activity) {
         ActivityResponseDto dto = new ActivityResponseDto(activity.getUserId());
         dto.setType(activity.getType());
-        dto.setDuration(String.valueOf(activity.getDuration()));
+        dto.setDuration(activity.getDuration());
         dto.setCaloriesBurned(activity.getCaloriesBurned());
         dto.setStartTime(activity.getStartTime());
         dto.setAdditionalMetrics(activity.getAdditionalMetrics());
