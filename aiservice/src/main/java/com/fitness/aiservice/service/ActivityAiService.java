@@ -8,6 +8,7 @@ import com.fitness.aiservice.dto.Activity;
 import com.fitness.aiservice.model.Recommendation;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
@@ -18,10 +19,10 @@ import java.util.List;
 
 @Service
 @Slf4j
-@RequiredArgsConstructor
 public class ActivityAiService {
 
-    private final IGeminiService geminiService;
+    @Autowired
+    IGeminiService geminiService;
 
     public Recommendation generateRecommendation(Activity activity) {
         String prompt = createPromptForActivity(activity);

@@ -2,10 +2,24 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/activity-service.iml" filepath="$PROJECT_DIR$/.idea/modules/activity-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/activity-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/activity-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/activity-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/activity-service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aiservice.iml" filepath="$PROJECT_DIR$/.idea/modules/aiservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/aiservice.main.iml" filepath="$PROJECT_DIR$/.idea/modules/aiservice.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/fitness-app.iml" filepath="$PROJECT_DIR$/.idea/fitness-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aiservice.test.iml" filepath="$PROJECT_DIR$/.idea/modules/aiservice.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-gateway.iml" filepath="$PROJECT_DIR$/.idea/modules/api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-gateway.main.iml" filepath="$PROJECT_DIR$/.idea/modules/api-gateway.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-gateway.test.iml" filepath="$PROJECT_DIR$/.idea/modules/api-gateway.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-server.iml" filepath="$PROJECT_DIR$/.idea/modules/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/config-server.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-server.test.iml" filepath="$PROJECT_DIR$/.idea/modules/config-server.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka.main.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka.test.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-service.iml" filepath="$PROJECT_DIR$/.idea/modules/user-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/user-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/user-service.test.iml" />
     </modules>
   </component>
 </project>
