@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: activity-service
+  datasource:
+    mongodb:
+      uri: mongodb://localhost:27017/fitness_activity
+      database: fitness_activity
+    rabbitmq:
+      host: localhost
+      port: 5672
+      username: guest
+      password: guest
+  devtools:
+    restart:
+      log-condition-evaluation-delta: false
+
+
+server:
+  port: 8081
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/
+
+rabbitmq:
+  exchange:
+    name: fitness.activity.exchange
+  queue:
+    name: activity.queue
+  routing:
+    key: activity.tracking

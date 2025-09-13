@@ -14,7 +14,7 @@ public class ActivityResponseDto {
     private String userId;
 
     private ActivityType type;
-    private String duration;
+    private int duration;
     private int caloriesBurned;
 
     private LocalDateTime startTime;
